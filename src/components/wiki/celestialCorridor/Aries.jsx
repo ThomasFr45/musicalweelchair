@@ -59,7 +59,7 @@ const Aries = () => {
             <br /> <img src={ariesInfo5} alt="" />
           </li>
           <li><h3>{language === 'en' ? "Notes :" : "Notez que :"}</h3></li>
-          <li>{language === 'en' ? "Aries won't take damage while the summoned sheep is alive." : 'Aries ne prendra pas de dégâts pendant que le mouton "spécial" est en vie.'} <br/> {language === 'EN' ? "Aries deals HEAVY FIRE DPS, It is recommanded to have at least 75 fire resistance." : "Aries fait de GROS dégâts en FIRE, il est recommandé d'avoir au MINIMUM 75 de résistance au feu."}</li>
+          <li>{language === 'en' ? "Aries won't take damage while the summoned sheep is alive." : 'Aries ne prendra pas de dégâts pendant que le mouton "spécial" est en vie.'} <br/> {language === 'en' ? "Aries deals HEAVY FIRE DPS, It is recommanded to have at least 75 fire resistance." : "Aries fait de GROS dégâts en FIRE, il est recommandé d'avoir au MINIMUM 75 de résistance au feu."}</li>
         </ul>
       </div>
     </div>
