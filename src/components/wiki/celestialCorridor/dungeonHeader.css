@@ -1,6 +1,7 @@
 .dungeonPic {
   width: 400px;
   height: 400px;
+  border-radius: 10%;
 }
 
 .bossImgs {

@@ -75,9 +75,9 @@ const CelestialCorridor = () => {
                   ? "Thursday"
                   : "Jeudi"}
               </td>
-              <td>Fermé</td>
-              <td>Fermé</td>
-              <td>Fermé</td>
+              <td>N/A</td>
+              <td>N/A</td>
+              <td>N/A</td>
             </tr>
             <tr>
               <td>
