@@ -42,14 +42,16 @@ const TestShit = () => {
                 }}>Sunday</div>
             </div>
             <div className='dayInfos'>
-                {testShit[selected].split('\n').map(boss => {
+                <h3>
+                    <p className='dayInfosSentence'>Today the following bosses are open :</p>
+                    {testShit[selected].split('\n').map(boss => {
                     return(
-                        <h3>
+                        <div className='dayInfosBoss'>
                             <p>{boss}</p>
-                            <br/>
-                        </h3>
+                        </div>
                     )
                 })}
+                </h3>
             </div>
         </div>
     )
