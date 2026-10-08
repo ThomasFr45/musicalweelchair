@@ -10,8 +10,6 @@ import Cart from './components/shop/Cart';
 import Tk from './components/wiki/tk/Tk';
 import Guild from './components/guild/Guild.jsx';
 // import TestShit from './components/wiki/testShit/TestShit.jsx';
-import AwaClass from './components/wiki/awaClass/AwaClass.jsx';
-import AwaClassDetails from './components/wiki/awaClass/AwaClassDetails.jsx';
 import CelestialCorridor from './components/wiki/celestialCorridor/CelestialCorridor.jsx';
 import Aquarius from './components/wiki/celestialCorridor/Aquarius.jsx';
 import Aries from './components/wiki/celestialCorridor/Aries.jsx';
@@ -19,6 +17,12 @@ import Gemini from './components/wiki/celestialCorridor/Gemini.jsx';
 import Leo from './components/wiki/celestialCorridor/Leo.jsx';
 import Libra from './components/wiki/celestialCorridor/Libra.jsx';
 import Sagittarius from './components/wiki/celestialCorridor/Sagittarius.jsx';
+import Cancer from './components/wiki/celestialCorridor/celestialCorridor2/Cancer.jsx';
+import Capricorn from './components/wiki/celestialCorridor/celestialCorridor2/Capricorn.jsx';
+import Pisces from './components/wiki/celestialCorridor/celestialCorridor2/Pisces.jsx';
+import Scorpio from './components/wiki/celestialCorridor/celestialCorridor2/Scorpio.jsx';
+import Taurus from './components/wiki/celestialCorridor/celestialCorridor2/Taurus.jsx';
+import Virgo from './components/wiki/celestialCorridor/celestialCorridor2/Virgo.jsx';
 
 const App = () => {
   const [language, setLanguage] = useState(localStorage.getItem('language'));
@@ -39,8 +43,6 @@ const App = () => {
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/cart" element={<Cart />} />
           <Route path="/wiki/tk" element={<Tk />} />
-          <Route path="/wiki/awaclass" element={<AwaClass />} />
-          <Route path="/wiki/awaclass/:class" element={<AwaClassDetails />} />
           {/* <Route path="/wiki/test" element={<TestShit />} /> */}
           <Route path="/wiki/celestialCorridor" element={<CelestialCorridor />} />
           <Route path="/wiki/celestialCorridor/aquarius" element={<Aquarius />} />
@@ -49,6 +51,12 @@ const App = () => {
           <Route path="/wiki/celestialCorridor/leo" element={<Leo />} />
           <Route path="/wiki/celestialCorridor/libra" element={<Libra />} />
           <Route path="/wiki/celestialCorridor/sagittarius" element={<Sagittarius />} />
+          <Route path="/wiki/celestialCorridor/cancer" element={<Cancer />} />
+          <Route path="/wiki/celestialCorridor/capricorn" element={<Capricorn />} />
+          <Route path="/wiki/celestialCorridor/pisces" element={<Pisces />} />
+          <Route path="/wiki/celestialCorridor/scorpio" element={<Scorpio />} />
+          <Route path="/wiki/celestialCorridor/taurus" element={<Taurus />} />
+          <Route path="/wiki/celestialCorridor/virgo" element={<Virgo />} />
         </Routes>
       </HashRouter>
       </MyContext.Provider>
