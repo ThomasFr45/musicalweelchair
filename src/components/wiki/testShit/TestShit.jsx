@@ -30,9 +30,7 @@ const TestShit = () => {
                 <div className={selected === 'Wednesday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
                     handleDaySelection("Wednesday")
                 }}>Wednesday</div>
-                <div className="disabledDay" onClick={() => {
-                    handleDaySelection("Thursday")
-                }}>Thursday</div>
+                <div className="disabledDay">Thursday</div>
                 <div className={selected === 'Friday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
                     handleDaySelection("Friday")
                 }}>Friday</div>
