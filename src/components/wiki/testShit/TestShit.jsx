@@ -1,9 +1,9 @@
-import dDoor from '../../../content/dDoor';
-import './dDoor.css';
+import testShit from '../../../content/testShit';
+import './testShit.css';
 import { useState, useContext } from 'react';
 import myContext from '../../../context/MyContext';
 
-const Ddoor = () => {
+const TestShit = () => {
     const { language } = useContext(myContext);
     const localTime = new Date();
     const serverTimeZone = "Canada/Eastern"
@@ -44,11 +44,17 @@ const Ddoor = () => {
                 }}>Sunday</div>
             </div>
             <div className='dayInfos'>
-                <p className='dayFirstInfo'>DoubleDoor (Lv70): {language === 'en' ? dDoor[0][selected].split('\n')[0] : dDoor[0][selected].split('\n')[1] ? dDoor[0][selected].split('\n')[1] : dDoor[0][selected].split('\n')[0]}</p>
-                <p>Ma'Kai (Lv80): {language === 'en' ? dDoor[1][selected].split('\n')[0] : dDoor[1][selected].split('\n')[1]  ? dDoor[1][selected].split('\n')[1] : dDoor[1][selected].split('\n')[0]}</p>
+                {testShit[selected].split('\n').map(boss => {
+                    return(
+                        <h3>
+                            <p>{boss}</p>
+                            <br/>
+                        </h3>
+                    )
+                })}
             </div>
         </div>
     )
 };
 // weekDaySelected
-export default Ddoor;
+export default TestShit;
