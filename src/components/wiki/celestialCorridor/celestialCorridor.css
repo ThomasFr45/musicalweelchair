@@ -1,90 +1,182 @@
-.ccContent {
+.dungeonPic {
+  width: 400px;
+  height: 400px;
+  border-radius: 10%;
+  margin-right: 20px;
+  box-shadow:3px 3px 3px rgb(83, 83, 83);
+}
+
+.dungeonPresentation {
   display: flex;
-  margin-top: 100px;
+  align-items: center;
   justify-content: space-evenly;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom:50px;
 }
 
-table {
-  border-collapse: collapse;
-  background-color: rgb(66, 66, 66);
-  width: fit-content;
-  border: 1px solid #dee2e6;
-  display: block;
-  overflow-x: auto;
-  margin-bottom: 100px;
+.dungeonPresentation p {
+  max-width : 680px;
+  color: #DDDDDD
 }
 
-td {
-  padding: 15px;
+.weekContainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 95%;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+.weekDay {
+    width: 70px;
+    background-color: #641724;
+    text-align: center;
+    font-size: 12px;;
+    max-height: fit-content;
+    padding:2px;
+    cursor: pointer;
 }
 
-tr:hover {
-  background-color: rgb(114, 114, 114);
+.weekDaySelected {
+    width: 70px;
+    background-color: #771727;
+    text-align: center;
+    font-size: 13px;
+    height:80px;
+    align-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-td:first-child {
-  font-weight: bold;
-  padding-right:50px;
+.dayInfos {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #DDDDDD
 }
 
-tr:not(:last-child) {
-  border-bottom: 1px solid #b3b6b9;
+.dayInfos a {
+    color : inherit;
+    width:fit-content
 }
 
-.libra {
-  background-image: url('../../../content/images/celestialCorridor/Libra.png');
-  background-size: cover;
+.dayFirstInfo {
+    margin-bottom: 5px;
 }
 
-.sagi {
-  background-image: url('../../../content/images/celestialCorridor/Sagi.png');
-  background-size: cover;
+.disabledDay {
+    width: 70px;
+    background-color: #4b494a;
+    text-align: center;
+    font-size: 12px;;
+    max-height: fit-content;
+    padding:2px;
 }
 
-.leo {
-  background-image: url('../../../content/images/celestialCorridor/Leo.png');
-  background-size: cover;
+.dayInfosSentence {
+    font-size: 110%;
+    text-decoration: underline;
+    margin-bottom: 20px;
 }
 
-.gemini {
-  background-image: url('../../../content/images/celestialCorridor/Gemini.png');
-  background-size: cover;
+.dayInfosSentence2 {
+    font-size:95%;
+    text-decoration: underline;
+    margin-top: 20px;
 }
 
-.aqua {
-  background-image: url('../../../content/images/celestialCorridor/Aqua.png');
-  background-size: cover;
+.dayInfosBoss {
+    font-size:95%;
+    margin-top:10px;
 }
 
-.aries {
-  background-image: url('../../../content/images/celestialCorridor/Aries.png');
-  background-size: cover;
+@media (min-width:600px) {
+
+    .weekDay {
+        width: 80px;
+        font-size: 14px;
+        padding:5px;
+    }
+
+    .disabledDay {
+        width: 80px;
+        font-size: 14px;
+        padding:5px;
+    }
+
+    .weekDaySelected {
+        width: 80px;
+        font-size: 16px;
+        font-family: bold;
+        height: 100px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .dayInfos {
+        margin-top: 50px;
+        font-size: 14px;
+    }
+
 }
 
-.ccScheduleTitle {
-  margin-bottom: 10px;
-  text-align: center;
-  font-weight: bold;
+@media (min-width:900px) {
+
+    .weekContainer {
+        max-width: 80%;
+    }
+
+    .weekDay {
+        width:100px;
+        font-size: 18px;
+        font-family: bold;
+    }
+
+    .disabledDay {
+        width:100px;
+        font-size: 18px;
+        font-family: bold;
+    }
+
+    .weekDaySelected {
+        width: 100px;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        align-content: center;
+    }
+
+    .dayInfos {
+        font-size: 16px;;
+    }
+
 }
 
-.ccBossImgsTitle {
-  margin-bottom: 10px;
-  text-align: center;
-  font-weight: bold;
+@media (max-width:1200px) {
+  .dungeonPic {
+    width: 300px;
+    height: 300px;
+  }
 }
 
-@media (max-width: 1000px) {
-  td:first-child {
-    padding-right:15px;
+@media (max-width:1000px) {
+  .dungeonPic {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
   }
 }
 
 @media (max-width:800px) {
-  .ccContent {
+  .dungeonPresentation {
     flex-direction: column;
-    align-items: center;
   }
-  .ccSchedule {
-    margin-bottom:-50px;
+  .dungeonPresentation p {
+    max-width: 70%;
+    margin-top: 50px;
+    font-size: 15px;
+  }
+  .dungeonPic {
+    margin-right: 0px;
   }
 }

@@ -11,9 +11,9 @@ const wikiContent = [
     link:"tk",
   },
   {
-    name: "Celestial Corridortest",
-    level: '117 / 127',
-    location: "Celestial Corridor",
+    name: "Abyss Test?",
+    level: '115 / 125',
+    location: "Abyss / Whispering Woods",
     short: "CC",
     player: '5',
     npc: "",

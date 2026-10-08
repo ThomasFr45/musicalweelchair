@@ -1,11 +1,11 @@
 const testShit = {
-    Monday:"Aries \n Leo \n Saggittarius \n Pisces \n Virgo \n Taurus",
-    Tuesday:"Aries \n Gemini \n Aquarius \n Cancer \n Pisces \n Scorpio",
-    Wednesday:"Gemini \n Leo \n Libra \n Cancer \n Capricorne \n Taurus",
+    Monday:"Aries\nLeo\nSaggittarius\nPisces\nVirgo\nTaurus",
+    Tuesday:"Aries\nGemini\nAquarius\nCancer\nPisces\nScorpio",
+    Wednesday:"Gemini\nLeo\nLibra\nCancer\nCapricorne\nTaurus",
     Thursday:"N/A",
-    Friday:"Aries \n Libra \n Saggitarius \n Virgo \n Scorpio \n Taurus",
-    Saturday:"Gemini \n Saggitarius \n Aquarius \n Pisces \n Scorpio \n Capricorne",
-    Sunday:"Leo \n Libra \n Aquarius \n Cancer \n Virgo \n Capricorne",
+    Friday:"Aries\nLibra\nSaggitarius\nVirgo\nScorpio\nTaurus",
+    Saturday:"Gemini\nSaggitarius\nAquarius\nPisces\nScorpio\nCapricorne",
+    Sunday:"Leo\nLibra\nAquarius\nCancer\nVirgo\nCapricorne",
 };
 
 export default testShit;

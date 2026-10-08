@@ -9,7 +9,7 @@ import Shop from './components/shop/Shop';
 import Cart from './components/shop/Cart';
 import Tk from './components/wiki/tk/Tk';
 import Guild from './components/guild/Guild.jsx';
-import TestShit from './components/wiki/testShit/TestShit.jsx';
+// import TestShit from './components/wiki/testShit/TestShit.jsx';
 import AwaClass from './components/wiki/awaClass/AwaClass.jsx';
 import AwaClassDetails from './components/wiki/awaClass/AwaClassDetails.jsx';
 import CelestialCorridor from './components/wiki/celestialCorridor/CelestialCorridor.jsx';
@@ -41,7 +41,7 @@ const App = () => {
           <Route path="/wiki/tk" element={<Tk />} />
           <Route path="/wiki/awaclass" element={<AwaClass />} />
           <Route path="/wiki/awaclass/:class" element={<AwaClassDetails />} />
-          <Route path="/wiki/test" element={<TestShit />} />
+          {/* <Route path="/wiki/test" element={<TestShit />} /> */}
           <Route path="/wiki/celestialCorridor" element={<CelestialCorridor />} />
           <Route path="/wiki/celestialCorridor/aquarius" element={<Aquarius />} />
           <Route path="/wiki/celestialCorridor/aries" element={<Aries />} />
