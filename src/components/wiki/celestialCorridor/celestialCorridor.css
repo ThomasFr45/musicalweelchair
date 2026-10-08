@@ -59,7 +59,10 @@
 
 .dayInfos a {
     color : inherit;
-    width:fit-content
+}
+
+.dayInfos a:hover {
+    color:#8a1c2e
 }
 
 .dayFirstInfo {
