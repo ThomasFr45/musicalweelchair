@@ -13,6 +13,7 @@
     font-size: 12px;;
     max-height: fit-content;
     padding:2px;
+    cursor: pointer;
 }
 
 .weekDaySelected {
@@ -22,6 +23,7 @@
     font-size: 13px;
     height:80px;
     align-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .dayInfos {
@@ -35,7 +37,14 @@
     margin-bottom: 5px;
 }
 
-
+.disabledDay {
+    width: 70px;
+    background-color: #4b494a;
+    text-align: center;
+    font-size: 12px;;
+    max-height: fit-content;
+    padding:2px;
+}
 
 @media (min-width:600px) {
 
@@ -45,11 +54,18 @@
         padding:5px;
     }
 
+    .disabledDay {
+        width: 80px;
+        font-size: 14px;
+        padding:5px;
+    }
+
     .weekDaySelected {
         width: 80px;
-        font-size: 15px;
+        font-size: 16px;
         font-family: bold;
         height: 100px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
     .dayInfos {
@@ -66,6 +82,12 @@
     }
 
     .weekDay {
+        width:100px;
+        font-size: 18px;
+        font-family: bold;
+    }
+
+    .disabledDay {
         width:100px;
         font-size: 18px;
         font-family: bold;
