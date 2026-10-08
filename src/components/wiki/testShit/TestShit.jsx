@@ -14,7 +14,7 @@ const TestShit = () => {
     }).format(localTime)
     const day = serverTime.split(',')[0];
     const [ selected, setSelected ] = useState(day);
-    const handleDaySelection = (clickedDay, dayId) => {
+    const handleDaySelection = (clickedDay) => {
         setSelected(clickedDay);
         return;
     };
@@ -22,27 +22,29 @@ const TestShit = () => {
         <div>
             <div className='weekContainer'>
                 <div className={selected === 'Monday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
-                    handleDaySelection("Monday",0)
+                    handleDaySelection("Monday")
                 }}>Monday</div>
                 <div className={selected === 'Tuesday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
-                    handleDaySelection("Tuesday",1)
+                    handleDaySelection("Tuesday")
                 }}>Tuesday</div>
                 <div className={selected === 'Wednesday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
-                    handleDaySelection("Wednesday",2)
+                    handleDaySelection("Wednesday")
                 }}>Wednesday</div>
-                <div className="disabledDay">Thursday</div>
+                <div className="disabledDay" onClick={() => {
+                    handleDaySelection("Thursday")
+                }}>Thursday</div>
                 <div className={selected === 'Friday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
-                    handleDaySelection("Friday",4)
+                    handleDaySelection("Friday")
                 }}>Friday</div>
                 <div className={selected === 'Saturday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
-                    handleDaySelection("Saturday",5)
+                    handleDaySelection("Saturday")
                 }}>Saturday</div>
                 <div className={selected === 'Sunday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
-                    handleDaySelection("Sunday",6)
+                    handleDaySelection("Sunday")
                 }}>Sunday</div>
             </div>
             <div className='dayInfos'>
-                <h3>
+                {selected === 'Thursday' ? language === 'en' ? 'There is no opened bosses today.' : "Aucun boss ouvert aujourd'hui." : <h3>
                     <p className='dayInfosSentence'>Today the following bosses are open :</p>
                     {testShit[selected].split('\n').map(boss => {
                     return(
@@ -51,7 +53,7 @@ const TestShit = () => {
                         </div>
                     )
                 })}
-                </h3>
+                </h3>}
             </div>
         </div>
     )
