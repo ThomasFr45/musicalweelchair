@@ -1,12 +1,12 @@
 import CcBossHeader from "../BossHeader";
 import '../ccBoss.css';
+import bossImg from '../../../../content/images/celestialCorridor2/virgo.png';
 
 const Virgo = () => {
-    const teamComp= {healer:"Totem Master", debuffer:"Paladin / Rifleteer", dps1:'Blade Master', dps2:'Executioner', dps3:'Assassin / Berserker'}
-    const bossImg = 'https://placehold.co/600x400';
+    const teamComp= {healer:"Totem Master", debuffer:"Druid", dps1:'Blade Master', dps2:'Executioner / Rifleteer', dps3:'Assassin / Berserker'}
     return (
         <div className="ccBossContainer">
-            <CcBossHeader name='Virgo' solo={false} dmg='N/A' comp={teamComp} img={bossImg}/>
+            <CcBossHeader name='Virgo' solo={false} dmg='Lightning / Dark' comp={teamComp} img={bossImg}/>
         </div>
     );
 }
