@@ -8,6 +8,11 @@ const Scorpio = () => {
     return (
         <div className="ccBossContainer">
             <CcBossHeader name='Scorpio' solo={false} dmg='Slash' comp={teamComp} img={bossImg}/>
+            <div className="ccBossConcent">
+                <ul className="ccBossMecha">
+                    <li>Oula cé dur</li>
+                </ul>
+            </div>
         </div>
     );
 }

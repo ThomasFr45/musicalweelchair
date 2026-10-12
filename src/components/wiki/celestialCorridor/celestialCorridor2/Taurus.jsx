@@ -8,6 +8,11 @@ const Taurus = () => {
     return (
         <div className="ccBossContainer">
             <CcBossHeader name='Taurus' solo={false} dmg='Strike' comp={teamComp} img={bossImg}/>
+            <div className="ccBossConcent">
+                <ul className="ccBossMecha">
+                    <li>Oula cé dur</li>
+                </ul>
+            </div>
         </div>
     );
 }
