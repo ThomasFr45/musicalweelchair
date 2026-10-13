@@ -7,7 +7,11 @@ const Cancer = () => {
     return (
         <div className="ccBossContainer">
             <CcBossHeader name='Cancer' solo={false} dmg='Pierce' comp={teamComp} img={bossImg}/>
-            
+            <div className="ccBossConcent">
+                <ul className="ccBossMecha">
+                    <li>Oula cé dur</li>
+                </ul>
+            </div>
         </div>
     );
 }
