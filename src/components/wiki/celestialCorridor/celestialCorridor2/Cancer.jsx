@@ -34,7 +34,7 @@ const Cancer = () => {
                     </li>
                     <li>
                         <h3>
-                            {language === 'en' ? 'Notes :' : 'Notes :'}
+                            Notes :
                         </h3>
                     </li>
                     <li>
