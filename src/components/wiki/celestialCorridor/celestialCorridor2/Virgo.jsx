@@ -1,8 +1,11 @@
 import CcBossHeader from "../BossHeader";
 import '../ccBoss.css';
 import bossImg from '../../../../content/images/celestialCorridor2/virgo.png';
+import MyContext from '../../../../context/MyContext';
+import { useContext } from 'react';
 
 const Virgo = () => {
+    const { language } = useContext(MyContext);
     const teamComp= {healer:"Totem Master", debuffer:"Druid", dps1:'Blade Master', dps2:'Executioner / Rifleteer', dps3:'Assassin / Berserker'}
     return (
         <div className="ccBossContainer">

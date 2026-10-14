@@ -1,9 +1,12 @@
 import CcBossHeader from "../BossHeader";
 import '../ccBoss.css';
 import bossImg from '../../../../content/images/celestialCorridor2/pisces.jpg';
+import MyContext from '../../../../context/MyContext';
+import { useContext } from 'react';
 
 
 const Pisces = () => {
+    const { language } = useContext(MyContext);
     const teamComp= {healer:"Totem Master / Life Worshipper", debuffer:"Paladin / Rifleteer", dps1:'Blade Master', dps2:'Executioner / Berserker', dps3:'Assassin / Berserker'}
     return (
         <div className="ccBossContainer">
