@@ -22,11 +22,6 @@
   margin-bottom: 80px;
 }
 
-.ccBossMecha li h4 {
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
 @media (max-width:600px) {
   .ccBossConcent {
     max-width:80%;

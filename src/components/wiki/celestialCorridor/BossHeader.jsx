@@ -11,13 +11,13 @@ const CcBossHeader = (props) => {
           className="ccBossProfilPic"
         />
         <div className="ccBossProfilInfo">
-          <p>{localStorage.getItem('language') === 'EN' ? "Name" : "Nom"} : {props.name}</p>
+          <p>{localStorage.getItem('language') === 'en' ? "Name" : "Nom"} : {props.name}</p>
           <p>Solo : {props.solo ? "Oui" : "Non"}</p>
-          <p>{localStorage.getItem('language') === 'EN' ? "DMG" : "Dégâts"} : {props.dmg}</p>
+          <p>{localStorage.getItem('language') === 'en' ? "DMG" : "Dégâts"} : {props.dmg}</p>
         </div>
       </div>
       <div className="ccBossComp">
-        <h3>{localStorage.getItem('language') === 'EN' ? "Recommended Classes :" : "Composition de groupe conseillée :"}</h3>
+        <h3>{localStorage.getItem('language') === 'en' ? "Recommended Classes :" : "Composition de groupe conseillée :"}</h3>
         <ul>
           <li>{props.comp.debuffer}</li>
           <li>{props.comp.dps1}</li>
