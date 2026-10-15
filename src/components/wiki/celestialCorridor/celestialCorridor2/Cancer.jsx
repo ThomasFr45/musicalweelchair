@@ -19,17 +19,17 @@ const Cancer = () => {
                     </li>
                     <li>
                         <p>
-                            {language === 'en' ? 'The boss will summon monsters regularly, making him immune to DMG while they are alive, you should pull them toward the healer who will place his Time Totem to clear them faster.' : "Le boss va régulièrement invoquer des monstres qui le rend immunisé aux dégâts, il faudra les attirer vers la healer pour qu'il place son Time Totem afin d'accélérer la clear."}
+                            1. {language === 'en' ? 'The boss will summon monsters regularly, making him immune to DMG while they are alive, you should pull them toward the healer who will place his Time Totem to clear them faster.' : "Le boss va régulièrement invoquer des monstres qui le rend immunisé aux dégâts, il faudra les attirer vers la healer pour qu'il place son Time Totem afin d'accélérer la clear."}
                         </p>
                     </li>
                     <li>
                         <p>
-                            {language === 'en' ? 'At some point the boss will start shooting arrows toward someone, they stun and deal HUGE damage. Switching to a shield when targeted can help survive. It is recommended not to stack on each other, to avoid stunning others if targeted.' : "À partir d'un moment, le boss va tirer des flêches vers l'un d'entre vous. Elles font de GROS dégâts et stun, équiper un bouclier lorsque vous êtes la cible peut aider à survivre au besoin. Il est recommandé de ne pas vous coller les uns aux autres, afin de ne pas stun les autres si vous êtes la cible."}
+                            2. {language === 'en' ? 'At some point the boss will start shooting arrows toward someone, they stun and deal HUGE damage. Switching to a shield when targeted can help survive. It is recommended not to stack on each other, to avoid stunning others if targeted.' : "À partir d'un moment, le boss va tirer des flêches vers l'un d'entre vous. Elles font de GROS dégâts et stun, équiper un bouclier lorsque vous êtes la cible peut aider à survivre au besoin. Il est recommandé de ne pas vous coller les uns aux autres, afin de ne pas stun les autres si vous êtes la cible."}
                         </p>
                     </li>
                     <li>
                         <p>
-                            {language === 'en' ? 'Around 50% hp, the boss will start "summoning" lava under you, dealing heavy damages. Depending on your HP, and how good the healer is, you might have to move to dodge it.' : 'En arrivant à 50% HP, le boss commencera à faire apparaître de la lave sous vos pieds. Elle influge de gros dégâts, en fonction de vos HP et de votre healeur il faudra peut-être en sortir.'}
+                            3. {language === 'en' ? 'Around 50% hp, the boss will start "summoning" lava under you, dealing heavy damages. Depending on your HP, and how good the healer is, you might have to move to dodge it.' : 'En arrivant à 50% HP, le boss commencera à faire apparaître de la lave sous vos pieds. Elle influge de gros dégâts, en fonction de vos HP et de votre healeur il faudra peut-être en sortir.'}
                         </p>
                     </li>
                     <li>
