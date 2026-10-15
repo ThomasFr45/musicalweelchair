@@ -11,7 +11,7 @@ import scorpioMid from '../../../../content/images/celestialCorridor2/scorpioMid
 
 const Scorpio = () => {
     const { language } = useContext(MyContext);
-    const teamComp= {healer:"Totem Master", debuffer:"NPC (LA / Rifle / Pala?)", dps1:'Blade Master', dps2:'Executioner / Druid', dps3:'Assassin / Berserker'}
+    const teamComp= {healer:"Totem Master", debuffer:"NPC (LA / Reaver / Pala?)", dps1:'Blade Master', dps2:'Executioner / Druid', dps3:'Assassin / Berserker'}
     return (
         <div className="ccBossContainer">
             <CcBossHeader name='Scorpio' solo={false} dmg='Slash' comp={teamComp} img={bossImg}/>
