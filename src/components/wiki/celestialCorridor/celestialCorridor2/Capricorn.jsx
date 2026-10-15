@@ -24,6 +24,8 @@ const Capricorn = () => {
                     </li>
                     <li>
                         <p>{language === 'en' ? "Boss can lower slash resistances by 40, it is recommended to have at least 50." : "Le boss peut réduire les résistances slash de 40, il est recommandé d'en avoir au moins 50."}</p>
+                    </li>
+                    <li>
                         <p>{language === 'en' ? "Clones deal high damages and always hit twice at the same spot." : "Les clones font de gros dégâts et frappent toujours deyx fois au même emplacement."}</p>
                     </li>
                 </ul>

@@ -25,6 +25,8 @@ const Taurus = () => {
                     </li>
                     <li>
                         <p>{language === 'en' ? "Taurus can lower Strike resistances by 40, is it recommanded to have at the very least 50, overcap if possible." : "Taurus peut réduire les résis Strike de 40, il est recommandé d'en avoir au moins 50 et d'overcap si possible."}</p>
+                    </li>
+                    <li>
                         <p>{language === 'en' ? "If boss aggro is stuck on you, let other do the mechanics, running from healer might get you killed pretty fast" : "Si le boss reste en aggro sur vous, laissez les autres faire la mecha, s'éloigner du heal pourrait très vite vous faire mourir."}</p>
                     </li>
                 </ul>
