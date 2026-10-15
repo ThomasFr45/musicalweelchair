@@ -63,7 +63,12 @@ const Pisces = () => {
                     </li>
                     <li>
                         <p>{language === 'en' ? "Boss can lower Holy and Ice resistances by 40, it is recommended tà have at least 70 of these, and to overcap if needed." : "Pisces peut réduire les résistances Holy et Ice de 40, il est recommandé d'en avoir au moins 70, voir d'overcap au besoin."}</p>
+                    </li>
+                    <li>
                         <p>{language === 'en' ? "Pisces can put you and your mates to sleep, dodge the AOE with green FX !!!" : "Le boss peut vous dodo, il faut dodge l'AOE avec des FX verts !!!"}</p>
+                    </li>
+                    <li>
+                        <p>{language === 'en' ? "You won't be able to damage the boss while the quiz is up." : "Impossible de faire des dégâts tant que le quiz est pas terminé."}</p>
                     </li>
                 </ul>
             </div>

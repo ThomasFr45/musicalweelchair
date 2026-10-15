@@ -24,7 +24,7 @@ const Cancer = () => {
                     </li>
                     <li>
                         <p>
-                            2. {language === 'en' ? 'At some point the boss will start shooting arrows toward someone, they stun and deal HUGE damage. Switching to a shield when targeted can help survive. It is recommended not to stack on each other, to avoid stunning others if targeted.' : "À partir d'un moment, le boss va tirer des flêches vers l'un d'entre vous. Elles font de GROS dégâts et stun, équiper un bouclier lorsque vous êtes la cible peut aider à survivre au besoin. Il est recommandé de ne pas vous coller les uns aux autres, afin de ne pas stun les autres si vous êtes la cible."}
+                            2. {language === 'en' ? 'At some point the boss will start shooting arrows toward someone, they stun and deal HUGE damage. Switching to a shield when targeted can help survive. It is recommended not to stack on each other, to avoid stunning or killing others if targeted.' : "À partir d'un moment, le boss va tirer des flêches vers l'un d'entre vous. Elles font de GROS dégâts et stun, équiper un bouclier lorsque vous êtes la cible peut aider à survivre au besoin. Il est recommandé de ne pas vous coller les uns aux autres, afin de ne pas stun ou tuer les autres si vous êtes la cible."}
                         </p>
                     </li>
                     <li>
