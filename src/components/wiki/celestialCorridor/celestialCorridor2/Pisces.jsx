@@ -37,7 +37,7 @@ const Pisces = () => {
                         <img src={piscesInfo} alt="The Dark Swin Spirit" />
                     </li>
                     <li>
-                        <p>2. {language === 'en' ? "There will be 2 statues that will appear in the room, you have to interact with them and talk to the correct one. One of them will have a correct statement." : "Il y aura 2 statues qui vont apparaître dans la salle, il faudra leur interagir avec et parler à la bonne. L'une des deux dira une vérité, il faudra lui 'parler.'"}</p>
+                        <p>2. {language === 'en' ? "There will be 2 statues that will appear in the room, you have to interact with them and talk to the correct one. One of them will have a correct statement." : "Il y aura 2 statues qui vont apparaître dans la salle, il faudra interagir avec et parler à la bonne. L'une des deux dira une vérité, il faudra lui 'parler.'"}</p>
                     </li>
                     <li>
                         <img src={piscesStatue} alt="statue" />
