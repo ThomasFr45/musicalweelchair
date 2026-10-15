@@ -20,7 +20,7 @@ const Taurus = () => {
                         </h3>
                     </li>
                     <li>
-                        <p>{language === 'en' ? "Taurus will say something in zone chat and pool of different colors will appear around him, you have to walk over the ones that match his message." : ""}</p>
+                        <p>{language === 'en' ? "Taurus will say something in zone chat and pools of different colors will appear around him, you have to walk over the ones that match his message." : ""}</p>
                     </li>
                     <li>
                         <img src={taurusElements} alt="taurusElements" />
