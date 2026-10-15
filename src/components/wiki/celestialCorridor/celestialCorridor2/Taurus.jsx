@@ -3,6 +3,7 @@ import '../ccBoss.css';
 import bossImg from '../../../../content/images/celestialCorridor2/taurus.png';
 import MyContext from '../../../../context/MyContext';
 import { useContext } from 'react';
+import taurusElements from '../../../../content/images/celestialCorridor2/taurusElements.jpg';
 
 
 const Taurus = () => {
@@ -19,9 +20,36 @@ const Taurus = () => {
                         </h3>
                     </li>
                     <li>
+                        <p>{language === 'en' ? "Taurus will say something in zone chat and pool of different colors will appear around him, you have to walk over the ones that match his message." : ""}</p>
+                    </li>
+                    <li>
+                        <img src={taurusElements} alt="taurusElements" />
+                    </li>
+                    <li>
+                        <p>{language === 'en' ? "Color tips :" : "Infos couleurs :"}</p>
+                    </li>
+                    <li>
+                        <p>{language === 'en' ? "Evaporate -> Blue" : "Evaporate -> Bleue"}</p>
+                    </li>
+                    <li>
+                        <p>{language === 'en' ? "Electrifying -> Purple" : "Electrifying -> Violet"}</p>
+                    </li>
+                    <li>
+                        <p>{language === 'en' ? "Hells Gate -> Orange" : "Hells Gates -> Orange"}</p>
+                    </li>
+                    <li>
+                        <p>{language === 'en' ? "Storm -> Green" : "Storm -> Vert"}</p>
+                    </li>
+                    <li>
                         <h3>
                             Notes :
                         </h3>
+                    </li>
+                    <li>
+                        <p>{language === 'en' ? "Don't stand mid, perma stun." : "Ne restez pas au centre, il stun trop"}</p>
+                    </li>
+                    <li>
+                        <p>{language === 'en' ? "That boss hits HARD." : "Ce boss fait mal."}</p>
                     </li>
                     <li>
                         <p>{language === 'en' ? "Taurus can lower Strike resistances by 40, is it recommanded to have at the very least 50, overcap if possible." : "Taurus peut réduire les résis Strike de 40, il est recommandé d'en avoir au moins 50 et d'overcap si possible."}</p>
