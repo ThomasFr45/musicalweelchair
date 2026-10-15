@@ -18,6 +18,12 @@ const Capricorn = () => {
                         </h3>
                     </li>
                     <li>
+                        <p>{language === 'en' ? "" : ""}</p>
+                    </li>
+                    <li>
+                        <p>{language === 'en' ? "" : ""}</p>
+                    </li>
+                    <li>
                         <h3>
                             Notes :
                         </h3>
