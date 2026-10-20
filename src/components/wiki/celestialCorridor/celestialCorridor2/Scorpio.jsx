@@ -52,7 +52,7 @@ const Scorpio = () => {
                         </h3>
                     </li>
                     <li>
-                        <p>{language === 'en' ? "Scorpio can lower slash resistances by 40, having 40 to begin with should be enough, feel free to get more if your HP is on the lower end or if DPS is slow." : "Scorpio peut réduire les résis slash de 40, mais commencer le combat avec 40 de résis suffit normalement si vous avez assez d'HP et de DPS."}</p>
+                        <p>{language === 'en' ? "Scorpio can lower slash resistances by 45, having 45 to begin with should be enough, feel free to get more if your HP is on the lower end or if DPS is slow." : "Scorpio peut réduire les résis slash de 45, mais commencer le combat avec 45 de résis suffit normalement si vous avez assez d'HP et de DPS."}</p>
                     </li>
                 </ul>
             </div>
