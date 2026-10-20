@@ -47,6 +47,7 @@ const Virgo = () => {
                         </h3>
                     </li>
                     <li>
+                        <p>{language === 'en' ? "Your CRIT DMG / MCRIT DMG will be lowered by 40." : "Votre CRIT DMG / MCRIT DMG sera réduit de 40."}</p>
                         <p>{language === 'en' ? "Virgo can lower Lightning and Dark resistances by 40. it would be recommended to have at least 70 of those, and to overcap slightly if possible." : "Virgo peut réduire les résis Lightning et Dark de 40, il est recommandé d'en avoir au moins 70 et d'overcap légèrement si possible."}</p>
                         <p>{language === 'en' ? "Healer should place grace totem on boss and prepare to keep both time totems up on both clones when they are up if possible." : "Le healer doit placer son grace totem et si possible maintenir les deux time totems sur les emplacement des clones."}</p>
                     </li>
