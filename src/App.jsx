@@ -31,7 +31,7 @@ const App = () => {
     <>
     <MyContext.Provider
         value={{
-          language: language,
+          language: language ? language : 'en',
         }}
       >
           <HashRouter >
