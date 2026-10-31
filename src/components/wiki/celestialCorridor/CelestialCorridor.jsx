@@ -1,62 +1,15 @@
 import ccPic from "../../../content/images/celestialCorridor/celestialCorridor.png";
-import { Link } from "react-router-dom";
 import MyContext from '../../../context/MyContext';
-import { useState, useContext } from 'react';
+import {  useContext } from 'react';
 import './celestialCorridor.css';
-import testShit from '../../../content/testShit';
+import celestialCorridor from '../../../content/testShit';
+import TodayContent from '../TodayContent';
 
 const CelestialCorridor = () => {
     const { language } = useContext(MyContext);
-    const localTime = new Date();
-        const serverTimeZone = "Canada/Eastern"
-        const serverTime = new Intl.DateTimeFormat('en-US', {
-            timeZone: serverTimeZone,
-            dateStyle: 'full',
-            timeStyle: 'full',
-        }).format(localTime)
-        const day = serverTime.split(',')[0];
-        const [ selected, setSelected ] = useState(day);
-        const handleDaySelection = (clickedDay) => {
-            setSelected(clickedDay);
-            return;
-        };
     return(
         <div>
-            <div className='weekContainer'>
-                <div className={selected === 'Monday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
-                    handleDaySelection("Monday")
-                }}>Monday</div>
-                <div className={selected === 'Tuesday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
-                    handleDaySelection("Tuesday")
-                }}>Tuesday</div>
-                <div className={selected === 'Wednesday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
-                    handleDaySelection("Wednesday")
-                }}>Wednesday</div>
-                <div className="disabledDay">Thursday</div>
-                <div className={selected === 'Friday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
-                    handleDaySelection("Friday")
-                }}>Friday</div>
-                <div className={selected === 'Saturday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
-                    handleDaySelection("Saturday")
-                }}>Saturday</div>
-                <div className={selected === 'Sunday' ? 'weekDaySelected' : 'weekDay'} onClick={() => {
-                    handleDaySelection("Sunday")
-                }}>Sunday</div>
-            </div>
-            <div className='dayInfos'>
-                {selected === 'Thursday' ? language === 'en' ? 'There is no opened bosses today.' : "Aucun boss ouvert aujourd'hui." : <h3>
-                    {language === 'en' ? <p className='dayInfosSentence'>Today the following bosses are open :</p> : <p className='dayInfosSentence'>Voici les boss du jour :</p>}
-                    {testShit[selected].split('\n').map(boss => {
-                        console.log(boss)
-                    return(
-                            <div className='dayInfosBoss'>
-                                <p><Link to={boss}>{boss}</Link></p>
-                            </div>
-                    )
-                })}
-                {language === 'en' ? <p className='dayInfosSentence2'>Click on the names for more infos.</p> : <p className='dayInfosSentence2'>Cliquez sur les noms pour plus d'infos.</p>}
-                </h3>}
-            </div>
+            <TodayContent content={celestialCorridor}/>
             <div className='dungeonPresentation'>
                 <img src={ccPic} alt="ccPic1" className="dungeonPic" />
                 {language === "en" ? (

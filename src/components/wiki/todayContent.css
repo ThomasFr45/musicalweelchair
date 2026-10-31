@@ -1,0 +1,118 @@
+.weekContainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 95%;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+.weekDay {
+    width: 70px;
+    background-color: #641724;
+    text-align: center;
+    font-size: 12px;;
+    max-height: fit-content;
+    padding:2px;
+    cursor: pointer;
+}
+
+.weekDaySelected {
+    width: 70px;
+    background-color: #771727;
+    text-align: center;
+    font-size: 13px;
+    height:80px;
+    align-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.dayInfos {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #DDDDDD
+}
+
+.dayFirstInfo {
+    margin-bottom: 5px;
+}
+
+.disabledDay {
+    width: 70px;
+    background-color: #4b494a;
+    text-align: center;
+    font-size: 12px;;
+    max-height: fit-content;
+    padding:2px;
+}
+
+.dayInfosSentence {
+    font-size: 110%;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.dayInfosBoss {
+    font-size:95%;
+    margin-top:10px;
+}
+
+@media (min-width:600px) {
+
+    .weekDay {
+        width: 80px;
+        font-size: 14px;
+        padding:5px;
+    }
+
+    .disabledDay {
+        width: 80px;
+        font-size: 14px;
+        padding:5px;
+    }
+
+    .weekDaySelected {
+        width: 80px;
+        font-size: 16px;
+        font-family: bold;
+        height: 100px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .dayInfos {
+        margin-top: 50px;
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width:900px) {
+
+    .weekContainer {
+        max-width: 80%;
+    }
+
+    .weekDay {
+        width:100px;
+        font-size: 18px;
+        font-family: bold;
+    }
+
+    .disabledDay {
+        width:100px;
+        font-size: 18px;
+        font-family: bold;
+    }
+
+    .weekDaySelected {
+        width: 100px;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        align-content: center;
+    }
+
+    .dayInfos {
+        font-size: 16px;;
+    }
+
+}

@@ -1,4 +1,5 @@
 import ccPic from "../content/images/celestialCorridor/celestialCorridor.png";
+import abyssPic from "../content/images/abyss/abyss.png";
 const wikiContent = [
     {
     name: "Temple Knight Trial",
@@ -11,14 +12,14 @@ const wikiContent = [
     link:"tk",
   },
   {
-    name: "Abyss Test?",
+    name: "Abyss / Deep Abyss",
     level: '115 / 125',
     location: "Abyss / Whispering Woods",
-    short: "CC",
+    short: "Abyss / DA",
     player: '5',
     npc: "",
-    img: ccPic,
-    link: "test",
+    img: abyssPic,
+    link: "abyss",
   },
   {
     name: "Celestial Corridor",

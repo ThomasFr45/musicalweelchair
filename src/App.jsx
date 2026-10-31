@@ -9,7 +9,6 @@ import Shop from './components/shop/Shop';
 import Cart from './components/shop/Cart';
 import Tk from './components/wiki/tk/Tk';
 import Guild from './components/guild/Guild.jsx';
-// import TestShit from './components/wiki/testShit/TestShit.jsx';
 import CelestialCorridor from './components/wiki/celestialCorridor/CelestialCorridor.jsx';
 import Aquarius from './components/wiki/celestialCorridor/Aquarius.jsx';
 import Aries from './components/wiki/celestialCorridor/Aries.jsx';
@@ -23,6 +22,7 @@ import Pisces from './components/wiki/celestialCorridor/celestialCorridor2/Pisce
 import Scorpio from './components/wiki/celestialCorridor/celestialCorridor2/Scorpio.jsx';
 import Taurus from './components/wiki/celestialCorridor/celestialCorridor2/Taurus.jsx';
 import Virgo from './components/wiki/celestialCorridor/celestialCorridor2/Virgo.jsx';
+import Abyss from './components/wiki/abyss/Abyss.jsx';
 
 const App = () => {
   const [language, setLanguage] = useState(localStorage.getItem('language'));
@@ -43,7 +43,7 @@ const App = () => {
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/cart" element={<Cart />} />
           <Route path="/wiki/tk" element={<Tk />} />
-          {/* <Route path="/wiki/test" element={<TestShit />} /> */}
+          <Route path="/wiki/abyss" element={<Abyss />} />
           <Route path="/wiki/celestialCorridor" element={<CelestialCorridor />} />
           <Route path="/wiki/celestialCorridor/aquarius" element={<Aquarius />} />
           <Route path="/wiki/celestialCorridor/aries" element={<Aries />} />
