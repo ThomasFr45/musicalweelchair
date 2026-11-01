@@ -9,13 +9,13 @@ const celestialCorridor = {
 };
 
 const abyss = {
-    Monday:"Sakuya\nEsh Baal",
-    Tuesday:"Willow\nMolten",
-    Wednesday:"Sakuya\nPhoenix",
-    Thursday:"Willow\nEsh Baal",
-    Friday:"Molten\nPhoenix",
-    Saturday:"Sakuya\nEsh Baal",
-    Sunday:"Willow\nMolten\nPhoenix",
+    Monday:"Sakuya\nEsh Baal\nCascade\nDesert Of Soul",
+    Tuesday:"Willow\nMolten\nCascade\nIce",
+    Wednesday:"Sakuya\nPhoenix\nIce\nDesert Of Soul",
+    Thursday:"Willow\nEsh Baal\nCascade\nDesert Of Soul",
+    Friday:"Molten\nPhoenix\nIce\nDesert Of Soul",
+    Saturday:"Sakuya\nEsh Baal\nCascade\nIce\nDesert Of Soul",
+    Sunday:"Willow\nMolten\nPhoenix\nCascade\nIce",
 }
 export { abyss };
 export default celestialCorridor
